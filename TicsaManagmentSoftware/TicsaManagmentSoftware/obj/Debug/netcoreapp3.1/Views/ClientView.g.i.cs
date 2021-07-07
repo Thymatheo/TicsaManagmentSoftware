@@ -150,7 +150,7 @@ namespace TicsaManagmentSoftware.Views {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/TicsaManagmentSoftware;component/views/clientview.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/TicsaManagmentSoftware;V1.0.0.0;component/views/clientview.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\Views\ClientView.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -1,7 +1,7 @@
 ﻿using TicsaManagmentSoftware.APIHelper.Model;
 
-namespace TicsaAPI.BLL.DTO.GammeType {
+namespace TicsaManagmentSoftware.APIHelper.DTO.GammeType {
     public class DtoGammeTypeUpdate : BasicElement {
-        public string? Label { get; set; }
+        public string Label { get; set; }
     }
 }

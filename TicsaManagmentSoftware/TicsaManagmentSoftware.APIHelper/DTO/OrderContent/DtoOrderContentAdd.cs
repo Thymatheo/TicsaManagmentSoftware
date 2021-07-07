@@ -1,6 +1,6 @@
 ﻿using TicsaManagmentSoftware.APIHelper.Model;
 
-namespace TicsaAPI.BLL.DTO.OrderContent {
+namespace TicsaManagmentSoftware.APIHelper.DTO.OrderContent {
     public class DtoOrderContentAdd : BasicElement {
         public int IdOrder { get; set; }
         public int IdGamme { get; set; }

@@ -1,6 +1,6 @@
 ﻿using TicsaManagmentSoftware.APIHelper.Model;
 
-namespace TicsaAPI.BLL.DTO.Producer {
+namespace TicsaManagmentSoftware.APIHelper.DTO.Producer {
     public class DtoProducerAdd : BasicElement {
         public string LastName { get; set; }
         public string FirstName { get; set; }

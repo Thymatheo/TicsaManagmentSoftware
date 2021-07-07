@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using TicsaManagmentSoftware.APIHelper.Model;
-
-namespace TicsaManagmentSoftware.APIHelper.Model {
+﻿namespace TicsaManagmentSoftware.APIHelper.Model {
     public partial class Gamme : BasicElement {
         public string Label { get; set; }
         public string Description { get; set; }

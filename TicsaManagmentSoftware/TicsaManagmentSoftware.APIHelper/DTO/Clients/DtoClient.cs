@@ -1,6 +1,6 @@
 ﻿using TicsaManagmentSoftware.APIHelper.Model;
 
-namespace TicsaAPI.BLL.DTO.Clients {
+namespace TicsaManagmentSoftware.APIHelper.DTO.Clients {
     public class DtoClient : BasicElement {
         public string LastName { get; set; }
         public string FirstName { get; set; }

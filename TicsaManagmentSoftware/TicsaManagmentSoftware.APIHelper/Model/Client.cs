@@ -1,7 +1,4 @@
-﻿using System.Collections.Generic;
-using TicsaManagmentSoftware.APIHelper.Model;
-
-namespace TicsaManagmentSoftware.APIHelper.Model {
+﻿namespace TicsaManagmentSoftware.APIHelper.Model {
     public partial class Client : BasicElement {
         public string LastName { get; set; }
         public string FirstName { get; set; }

@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using TicsaManagmentSoftware.APIHelper.Model;
 
 
 namespace TicsaManagmentSoftware.APIHelper.Model {

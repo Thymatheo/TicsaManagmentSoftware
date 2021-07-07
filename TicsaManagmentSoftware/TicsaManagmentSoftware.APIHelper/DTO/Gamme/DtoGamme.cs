@@ -1,6 +1,6 @@
 ﻿using TicsaManagmentSoftware.APIHelper.Model;
 
-namespace TicsaAPI.BLL.DTO.Gamme {
+namespace TicsaManagmentSoftware.APIHelper.DTO.Gamme {
     public class DtoGamme : BasicElement {
         public string Label { get; set; }
         public string Description { get; set; }

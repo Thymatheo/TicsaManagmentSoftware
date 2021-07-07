@@ -1,4 +1,5 @@
 ﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Net.Http.Headers;
@@ -18,29 +19,24 @@ namespace TicsaManagmentSoftware.APIHelper.Services {
             Config = config;
         }
 
-        public async Task<Response<IEnumerable<U>>> GetAll() {
-            return await RequestHttpGet<Response<IEnumerable<U>>>("all");
-        }
+        public async Task<Response<IEnumerable<U>>> GetAll() =>
+            await RequestHttpGet<Response<IEnumerable<U>>>("all");
 
-        public async Task<Response<U>> GetById(string route) {
-            return await RequestHttpGet<Response<U>>(route);
-        }
+        public async Task<Response<U>> GetById(string route) =>
+            await RequestHttpGet<Response<U>>(route);
 
-        public async Task<Response<U>> Delete(string route) {
-            return await RequestHttpDelete<Response<U>>("remove/" + route);
-        }
+        public async Task<Response<U>> Delete(string route) =>
+            await RequestHttpDelete<Response<U>>("remove/" + route);
 
-        public async Task<Response<IEnumerable<U>>> Post(object param) {
-            return await RequestHttpPost<Response<IEnumerable<U>>>(param, "add");
-        }
+        public async Task<Response<IEnumerable<U>>> Post(object param) =>
+            await RequestHttpPost<Response<IEnumerable<U>>>(param, "add");
 
-        public async Task<Response<U>> Put(object param, string route) {
-            return await RequestHttpPut<Response<U>>(param, "update/" + route);
-        }
+        public async Task<Response<U>> Put(object param, string route) =>
+            await RequestHttpPut<Response<U>>(param, "update/" + route);
 
         protected HttpClient GetClient() {
             HttpClient client = new HttpClient();
-            client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(API_KEY_LABEL, Config.AuthKey);
+            client.DefaultRequestHeaders.Add(API_KEY_LABEL, Config.AuthKey);
             return client;
         }
         protected StringContent BuildParam(object param) {

@@ -4,9 +4,22 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TicsaManagmentSoftware"
+        xmlns:views ="clr-namespace:TicsaManagmentSoftware.Views"
+        xmlns:viewmodel ="clr-namespace:TicsaManagmentSoftware.ViewModel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+        Title="MainWindow" Height="720" Width="1080">
+    <Window.Resources>
+        <DataTemplate x:Name="___ClientView_" DataType="{x:Type viewmodel:ClientViewModel}">
+            <views:ClientView DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="___GammeView_" DataType="{x:Type viewmodel:GammeViewModel}">
+            <views:GammeView DataContext="{Binding}"/>
+        </DataTemplate>
+    </Window.Resources>
+    <StackPanel>
+        <Menu x:Name="___MainMenuBar_">
+            <MenuItem x:Name="___ClientMenuItem_" Header="Clients" Padding="5,5,5,0" Click="___ClientMenuItem__Click"/>
+        </Menu>
+        <ContentControl x:Name="___MainContentControl_" Height="Auto" Width="Auto"/>
+    </StackPanel>
 </Window>

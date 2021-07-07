@@ -2,9 +2,9 @@
 using TicsaManagmentSoftware.APIHelper.Services;
 using TicsaManagmentSoftware.APIHelper.Services.Interfaces;
 
-namespace TicsaManagmentSoftware.APIHelper.Locator {
+namespace TicsaManagmentSoftware.APIHelper {
     public static class HelperLocator {
-        public static void AddCLRoutage(this IServiceCollection services, HelperConfig config) {
+        public static void AddTicsaServices(this IServiceCollection services, HelperConfig config) {
             services.AddSingleton(config);
             services.AddScoped<IClientService, ClientService>();
             services.AddScoped<ICommentaryService, CommentaryService>();

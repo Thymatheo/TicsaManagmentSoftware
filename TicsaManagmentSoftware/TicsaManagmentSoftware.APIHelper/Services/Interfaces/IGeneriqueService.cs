@@ -6,7 +6,7 @@ namespace TicsaManagmentSoftware.APIHelper.Services.Interfaces {
         Task<Response<U>> Delete(string route);
         Task<Response<IEnumerable<U>>> GetAll();
         Task<Response<U>> GetById(string route);
-        Task<Response<IEnumerable<U>>> Post(object param);
+        Task<Response<U>> Post(object param);
         Task<Response<U>> Put(object param, string route);
     }
 }

@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.ComponentModel;
-using System.Text;
 using TicsaManagmentSoftware.APIHelper.DTO.Clients;
-using TicsaManagmentSoftware.APIHelper.Services.Interfaces;
 
 namespace TicsaManagmentSoftware.ViewModel {
     public class ClientViewModel : INotifyPropertyChanged {
@@ -14,9 +11,7 @@ namespace TicsaManagmentSoftware.ViewModel {
         }
 
         public IEnumerable<DtoClient> Clients {
-            get {
-                return _Clients;
-            }
+            get => _Clients;
             set {
                 if (value != _Clients) {
                     _Clients = value;

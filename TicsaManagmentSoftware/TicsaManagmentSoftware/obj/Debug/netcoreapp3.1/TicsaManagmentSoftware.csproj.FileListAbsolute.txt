@@ -1,8 +1,4 @@
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware.csprojAssemblyReference.cache
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\MainWindow.g.cs
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\App.g.cs
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware_MarkupCompile.cache
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware_MarkupCompile.lref
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\Debug\netcoreapp3.1\appsettings.json
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\Debug\netcoreapp3.1\TicsaManagmentSoftware.exe
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\Debug\netcoreapp3.1\TicsaManagmentSoftware.deps.json
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\Debug\netcoreapp3.1\TicsaManagmentSoftware.runtimeconfig.json
@@ -48,7 +44,17 @@ E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\D
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Security.Principal.Windows.dll
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\Debug\netcoreapp3.1\TicsaManagmentSoftware.APIHelper.dll
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\Debug\netcoreapp3.1\TicsaManagmentSoftware.APIHelper.pdb
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware.csprojAssemblyReference.cache
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\Views\ClientView.g.cs
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\Views\GammeView.g.cs
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\App.g.cs
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware_MarkupCompile.cache
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware_MarkupCompile.lref
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\Views\ClientView.baml
+E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\Views\GammeView.baml
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware.g.resources
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware.AssemblyInfoInputs.cache
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware.AssemblyInfo.cs
@@ -57,9 +63,3 @@ E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\D
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware.dll
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware.pdb
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\TicsaManagmentSoftware.genruntimeconfig.cache
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\bin\Debug\netcoreapp3.1\appsettings.json
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\Views\ClientView.g.cs
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\Views\GammeView.g.cs
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\Views\ClientView.baml
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\Views\GammeView.baml
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs

@@ -24,7 +24,7 @@
             <ColumnDefinition Width="380"/>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0">
-            <ListView x:Name="___ProjectSaveListView_" Margin="10,10,10,0" SelectionMode="Single" Height="600">
+            <ListView x:Name="___ClientsListView_" Margin="10,10,10,0" SelectionMode="Single" Height="600">
                 <ListView.ItemContainerStyle>
                     <Style TargetType="ListViewItem">
                         <Setter Property="VerticalContentAlignment" Value="Top"/>
@@ -52,7 +52,23 @@
             </Grid>
         </StackPanel>
         <StackPanel Grid.Column="1">
-            <ComboBox x:Name="___SQLConnectorComboBox_" Margin="10" Padding="10" Width="Auto" ItemsSource="{Binding Source={StaticResource dataFromEnum}}"/>
+            <TextBlock x:Name="___ActionTypeTextBlock_" Margin="10,10,10,5" Text="Veuillez choisir le type d'action souhaité :"/>
+            <ComboBox x:Name="___ClientActionComboBox_" Margin="10,5,10,10" Padding="10" Width="Auto" ItemsSource="{Binding Source={StaticResource dataFromEnum}}"/>
+            <TextBlock x:Name="___FirstNameTextBlock_" Margin="10,10,10,5" Text="Prénom :"/>
+            <TextBox x:Name="___FirstNameTextBox_" Margin="10,5,10,5"/>
+            <TextBlock x:Name="___LastNameTextBlock_" Margin="10,5,10,5" Text="Nom de famille :"/>
+            <TextBox x:Name="___LastNameTextBox_" Margin="10,5,10,5"/>
+            <TextBlock x:Name="___CompagnieNameTextBlock_" Margin="10,5,10,5" Text="Nom de la compagnie :"/>
+            <TextBox x:Name="___CompagnieNameTextBox_" Margin="10,5,10,5"/>
+            <TextBlock x:Name="___EmailTextBlock_" Margin="10,5,10,5" Text="Email :"/>
+            <TextBox x:Name="___EmailTextBox_" Margin="10,5,10,5"/>
+            <TextBlock x:Name="___PhoneNumberTextBlock_" Margin="10,5,10,5" Text="Numéro de téléphone :"/>
+            <TextBox x:Name="___PhoneNumberTextBox_" Margin="10,5,10,5"/>
+            <TextBlock x:Name="___AddressTextBlock_" Margin="10,5,10,5" Text="Adresse :"/>
+            <TextBox x:Name="___AdddressTextBox_" Margin="10,5,10,5"/>
+            <TextBlock x:Name="___PostalCodeTextBlock_" Margin="10,5,10,5" Text="Code postal :"/>
+            <TextBox x:Name="___PostalCodeTextBox_" Margin="10,5,10,5"/>
+            <Button x:Name="___FinalizeButton_" Margin="10,10,10,5" Content="Finaliser l'opération" Click="___FinalizeButton__Click"/>
         </StackPanel>
     </Grid>
 

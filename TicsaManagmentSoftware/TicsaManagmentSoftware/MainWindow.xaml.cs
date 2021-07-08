@@ -1,12 +1,7 @@
 ﻿using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Hosting.Internal;
-using Newtonsoft.Json;
 using System;
-using System.Threading.Tasks;
 using System.Windows;
-using TicsaManagmentSoftware.APIHelper.Services.Interfaces;
 using TicsaManagmentSoftware.ViewModel;
 
 namespace TicsaManagmentSoftware {

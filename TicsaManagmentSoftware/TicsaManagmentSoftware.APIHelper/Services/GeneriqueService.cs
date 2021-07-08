@@ -1,8 +1,6 @@
 ﻿using Newtonsoft.Json;
-using System;
 using System.Collections.Generic;
 using System.Net.Http;
-using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 using TicsaManagmentSoftware.APIHelper.Services.Interfaces;
@@ -19,20 +17,25 @@ namespace TicsaManagmentSoftware.APIHelper.Services {
             Config = config;
         }
 
-        public async Task<Response<IEnumerable<U>>> GetAll() =>
-            await RequestHttpGet<Response<IEnumerable<U>>>("all");
+        public async Task<Response<IEnumerable<U>>> GetAll() {
+            return await RequestHttpGet<Response<IEnumerable<U>>>("all");
+        }
 
-        public async Task<Response<U>> GetById(string route) =>
-            await RequestHttpGet<Response<U>>(route);
+        public async Task<Response<U>> GetById(string route) {
+            return await RequestHttpGet<Response<U>>(route);
+        }
 
-        public async Task<Response<U>> Delete(string route) =>
-            await RequestHttpDelete<Response<U>>("remove/" + route);
+        public async Task<Response<U>> Delete(string route) {
+            return await RequestHttpDelete<Response<U>>("remove/" + route);
+        }
 
-        public async Task<Response<IEnumerable<U>>> Post(object param) =>
-            await RequestHttpPost<Response<IEnumerable<U>>>(param, "add");
+        public async Task<Response<U>> Post(object param) {
+            return await RequestHttpPost<Response<U>>(param, "add");
+        }
 
-        public async Task<Response<U>> Put(object param, string route) =>
-            await RequestHttpPut<Response<U>>(param, "update/" + route);
+        public async Task<Response<U>> Put(object param, string route) {
+            return await RequestHttpPut<Response<U>>(param, "update/" + route);
+        }
 
         protected HttpClient GetClient() {
             HttpClient client = new HttpClient();

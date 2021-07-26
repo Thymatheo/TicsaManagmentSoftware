@@ -1,20 +1,20 @@
 ﻿TicsaManagmentSoftware
-1.0.0.0
+
 
 winexe
 C#
 .cs
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\
 TicsaManagmentSoftware
 none
 false
-TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\App.xaml
-3-1926017949
+TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\App.xaml
+71380060161
 
-111148928203
-219176443126
-MainWindow.xaml;Views\ClientView.xaml;Views\GammeView.xaml;
+16-890388854
+224826094664
+MainWindow.xaml;Views\ClientView.xaml;Views\GammeTypeView.xaml;Views\GammeView.xaml;Views\ProducerView.xaml;Views\Selection\GammeTypeSelectionWindow.xaml;Views\Selection\ProducerSelectionWindow.xaml;
 
 False
 

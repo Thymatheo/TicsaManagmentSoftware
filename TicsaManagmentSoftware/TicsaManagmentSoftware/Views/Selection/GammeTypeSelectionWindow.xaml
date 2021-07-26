@@ -1,0 +1,25 @@
+﻿<Window x:Class="TicsaManagmentSoftware.Views.Selection.GammeTypeSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TicsaManagmentSoftware.Views.Selection"
+        mc:Ignorable="d"
+        Title="GammeTypeSelectionWindow" Height="500" Width="470">
+    <StackPanel Grid.Column="0">
+        <ListView x:Name="___GammeTypesListView_" Margin="10,10,10,0" SelectionMode="Single" Height="370">
+            <ListView.ItemContainerStyle>
+                <Style TargetType="ListViewItem">
+                    <Setter Property="VerticalContentAlignment" Value="Top"/>
+                </Style>
+            </ListView.ItemContainerStyle>
+            <ListView.View>
+                <GridView x:Name="___GammeTypesGridView_">
+                    <GridViewColumn x:Name="___GammeTypeLabelGridViewColumn_" Header="Nom du type" DisplayMemberBinding="{Binding Label}" Width="Auto"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="___LoadGammeTypesButton_" Content="Charger" Click="___LoadGammeTypesButton__Click" Margin="10,10,10,5"/>
+        <Button x:Name="___SelectGammeTypeButton_" Content="Selectionner" Click="___SelectGammeTypeButton__Click" Grid.Column="0" Margin="10,5,10,10"/>
+    </StackPanel>
+</Window>

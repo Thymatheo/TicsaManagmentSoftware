@@ -1,35 +1,35 @@
 {
   "format": 1,
   "restore": {
-    "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.csproj": {}
+    "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.csproj": {}
   },
   "projects": {
-    "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj": {
+    "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj",
+        "projectUniqueName": "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj",
         "projectName": "TicsaManagmentSoftware.APIHelper",
-        "projectPath": "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj",
+        "projectPath": "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj",
         "packagesPath": "C:\\Users\\Timote\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\obj\\",
+        "outputPath": "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Timote\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netstandard2.0"
+          "net50"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netstandard2.0": {
-            "targetAlias": "netstandard2.0",
+          "net50": {
             "projectReferences": {}
           }
         },
@@ -40,67 +40,61 @@
         }
       },
       "frameworks": {
-        "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
+        "net50": {
           "dependencies": {
+            "Microsoft.CodeAnalysis.FxCopAnalyzers": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.9.6, )"
+            },
             "Microsoft.Extensions.DependencyInjection": {
               "target": "Package",
               "version": "[5.0.1, )"
-            },
-            "NETStandard.Library": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.0.3, )",
-              "autoReferenced": true
             },
             "Newtonsoft.Json": {
               "target": "Package",
               "version": "[13.0.1, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.csproj": {
+    "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.csproj",
+        "projectUniqueName": "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.csproj",
         "projectName": "TicsaManagmentSoftware",
-        "projectPath": "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.csproj",
+        "projectPath": "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.csproj",
         "packagesPath": "C:\\Users\\Timote\\.nuget\\packages\\",
-        "outputPath": "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\obj\\",
+        "outputPath": "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
           "C:\\Users\\Timote\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net50"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net50": {
             "projectReferences": {
-              "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj": {
-                "projectPath": "E:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj"
+              "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj": {
+                "projectPath": "D:\\C#\\TicsaManagmentSoftware\\TicsaManagmentSoftware\\TicsaManagmentSoftware.APIHelper\\TicsaManagmentSoftware.APIHelper.csproj"
               }
             }
           }
@@ -112,9 +106,12 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net50": {
           "dependencies": {
+            "Extended.Wpf.Toolkit": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",
               "version": "[5.0.0, )"
@@ -144,16 +141,6 @@
               "version": "[5.0.0, )"
             }
           },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
@@ -162,7 +149,12 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
         }
       }
     }

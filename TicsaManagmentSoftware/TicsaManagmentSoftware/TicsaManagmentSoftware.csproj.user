@@ -10,7 +10,19 @@
     <Compile Update="Views\ClientView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Views\GammeTypeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Views\GammeView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\ProducerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Selection\GammeTypeSelectionWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Views\Selection\ProducerSelectionWindow.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
@@ -21,7 +33,19 @@
     <Page Update="Views\ClientView.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Views\GammeTypeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="Views\GammeView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\ProducerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Selection\GammeTypeSelectionWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Views\Selection\ProducerSelectionWindow.xaml">
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>

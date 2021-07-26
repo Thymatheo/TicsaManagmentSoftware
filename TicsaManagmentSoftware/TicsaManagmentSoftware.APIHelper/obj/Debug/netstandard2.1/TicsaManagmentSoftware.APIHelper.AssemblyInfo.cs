@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("TicsaManagmentSoftware")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("TicsaManagmentSoftware.APIHelper")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("TicsaManagmentSoftware")]
-[assembly: System.Reflection.AssemblyTitleAttribute("TicsaManagmentSoftware")]
+[assembly: System.Reflection.AssemblyProductAttribute("TicsaManagmentSoftware.APIHelper")]
+[assembly: System.Reflection.AssemblyTitleAttribute("TicsaManagmentSoftware.APIHelper")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Généré par la classe MSBuild WriteCodeFragment.

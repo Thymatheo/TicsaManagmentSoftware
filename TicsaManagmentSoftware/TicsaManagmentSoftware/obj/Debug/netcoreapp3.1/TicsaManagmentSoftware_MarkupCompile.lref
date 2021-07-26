@@ -1,6 +1,10 @@
-﻿E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+﻿
 
-FE:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\MainWindow.xaml;;
-FE:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\Views\ClientView.xaml;;
-FE:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\Views\GammeView.xaml;;
+FD:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\MainWindow.xaml;;
+FD:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\Views\ClientView.xaml;;
+FD:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\Views\GammeTypeView.xaml;;
+FD:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\Views\GammeView.xaml;;
+FD:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\Views\ProducerView.xaml;;
+FD:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\Views\Selection\GammeTypeSelectionWindow.xaml;;
+FD:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware\Views\Selection\ProducerSelectionWindow.xaml;;
 

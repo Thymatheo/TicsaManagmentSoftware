@@ -15,10 +15,19 @@
         <DataTemplate x:Name="___GammeView_" DataType="{x:Type viewmodel:GammeViewModel}">
             <views:GammeView DataContext="{Binding}"/>
         </DataTemplate>
+        <DataTemplate x:Name="___ProducerView_" DataType="{x:Type viewmodel:ProducerViewModel}">
+            <views:ProducerView DataContext="{Binding}"/>
+        </DataTemplate>
+        <DataTemplate x:Name="___GammeTypeView_" DataType="{x:Type viewmodel:GammeTypeViewModel}">
+            <views:GammeTypeView DataContext="{Binding}"/>
+        </DataTemplate>
     </Window.Resources>
     <StackPanel>
         <Menu x:Name="___MainMenuBar_">
-            <MenuItem x:Name="___ClientMenuItem_" Header="Clients" Padding="5,5,5,0" Click="___ClientMenuItem__Click"/>
+            <MenuItem x:Name="___ClientMenuItem_" Header="Clients" Padding="5" Click="___ClientMenuItem__Click"/>
+            <MenuItem x:Name="___ProducerMenuItem_" Header="Producteurs" Padding="5" Click="___ProducerMenuItem__Click"/>
+            <MenuItem x:Name="___GammeTypeMenuItem_" Header="Types de Gamme" Padding="5" Click="___GammeTypeMenuItem__Click"/>
+            <MenuItem x:Name="___GammeMenuItem_" Header="Gammes" Padding="5" Click="___GammeMenuItem__Click"/>
         </Menu>
         <ContentControl x:Name="___MainContentControl_" Height="Auto" Width="Auto"/>
     </StackPanel>

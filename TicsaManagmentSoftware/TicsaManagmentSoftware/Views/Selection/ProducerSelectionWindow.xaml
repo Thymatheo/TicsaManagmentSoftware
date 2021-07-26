@@ -1,0 +1,31 @@
+﻿<Window x:Class="TicsaManagmentSoftware.Views.Selection.ProducerSelectionWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TicsaManagmentSoftware.Views.Selection"
+        mc:Ignorable="d"
+        Title="ProducerSelectionWindow" Height="500" Width="470">
+    <StackPanel Grid.Column="0">
+            <ListView x:Name="___ProducersListView_" Margin="10,10,10,0" SelectionMode="Single" Height="370">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="VerticalContentAlignment" Value="Top"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView x:Name="___ProducersGridView_">
+                        <GridViewColumn x:Name="___ProducerLastNameGridViewColumn_" Header="Nom de famille" DisplayMemberBinding="{Binding LastName}" Width="Auto"/>
+                        <GridViewColumn x:Name="___ProducerFirstNameGridViewColumn_" Header="Prénom" DisplayMemberBinding="{Binding FirstName}" Width="Auto"/>
+                        <GridViewColumn x:Name="___CompagnieNameNameGridViewColumn_" Header="Nom de la Compagnie" DisplayMemberBinding="{Binding CompagnieName}" Width="Auto"/>
+                        <GridViewColumn x:Name="___EmailGridViewColumn_" Header="Email" DisplayMemberBinding="{Binding Email}" Width="Auto"/>
+                        <GridViewColumn x:Name="___PhoneNumberNameGridViewColumn_" Header="Numéro de Téléphone" DisplayMemberBinding="{Binding PhoneNumber}" Width="Auto"/>
+                        <GridViewColumn x:Name="___AddressNameGridViewColumn_" Header="Adresse" DisplayMemberBinding="{Binding Address}" Width="Auto"/>
+                        <GridViewColumn x:Name="___PostalCodeNameGridViewColumn_" Header="Code postal" DisplayMemberBinding="{Binding PostalCode}" Width="Auto"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Button x:Name="___LoadProducersButton_" Content="Charger" Click="___LoadProducersButton__Click" Margin="10,10,10,5"/>
+            <Button x:Name="___SelectProducerButton_" Content="Selectionner" Click="___SelectProducerButton__Click" Margin="10,5,10,10"/>
+        </StackPanel>
+</Window>

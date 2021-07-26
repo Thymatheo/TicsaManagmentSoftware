@@ -65,7 +65,7 @@ namespace TicsaManagmentSoftware.Views {
                             PostalCode = ___PostalCodeTextBox_.Text
                         });
                         if (resultPost.Succes) {
-                            MessageBox.Show("Ajout du clients avec succes");
+                            MessageBox.Show("Ajout du client avec succes");
                         }
                         else {
                             MessageBox.Show(string.Format("Une erreur est survenue lors de l'ajout du client \nErreur : {0}", resultPost.Error));
@@ -86,7 +86,7 @@ namespace TicsaManagmentSoftware.Views {
                                 PostalCode = ___PostalCodeTextBox_.Text
                             }, ((DtoClient)___ClientsListView_.SelectedItem).Id.ToString());
                             if (resultPut.Succes) {
-                                MessageBox.Show("Modification  du clients avec succes");
+                                MessageBox.Show("Modification du client avec succes");
                             }
                             else {
                                 MessageBox.Show(string.Format("Une erreur est survenue lors de la modification du client \nErreur : {0}", resultPut.Error));

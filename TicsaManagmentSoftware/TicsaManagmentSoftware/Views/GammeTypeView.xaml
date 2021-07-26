@@ -1,0 +1,56 @@
+﻿<UserControl x:Class="TicsaManagmentSoftware.Views.GammeTypeView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:TicsaManagmentSoftware.Views"
+             xmlns:sys="clr-namespace:System;assembly=mscorlib"
+             xmlns:viewmodel="clr-namespace:TicsaManagmentSoftware.ViewModel"
+             d:DataContext="{d:DesignInstance Type=viewmodel:GammeTypeViewModel}"
+             mc:Ignorable="d" 
+             d:DesignHeight="700" d:DesignWidth="1080">
+    <UserControl.Resources>
+        <ObjectDataProvider x:Key="dataFromEnum" MethodName="GetValues"
+                            ObjectType="{x:Type sys:Enum}">
+            <ObjectDataProvider.MethodParameters>
+                <x:Type TypeName="local:QueryTypeEnum"/>
+            </ObjectDataProvider.MethodParameters>
+        </ObjectDataProvider>
+        <viewmodel:GammeTypeViewModel x:Key="model"></viewmodel:GammeTypeViewModel>
+    </UserControl.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="680"/>
+            <ColumnDefinition Width="380"/>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <ListView x:Name="___GammeTypesListView_" Margin="10,10,10,0" SelectionMode="Single" Height="600">
+                <ListView.ItemContainerStyle>
+                    <Style TargetType="ListViewItem">
+                        <Setter Property="VerticalContentAlignment" Value="Top"/>
+                    </Style>
+                </ListView.ItemContainerStyle>
+                <ListView.View>
+                    <GridView x:Name="___GammeTypesGridView_">
+                        <GridViewColumn x:Name="___GammeTypeLabelGridViewColumn_" Header="Nom du type" DisplayMemberBinding="{Binding Label}" Width="Auto"/>
+                    </GridView>
+                </ListView.View>
+            </ListView>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Button x:Name="___RefreshGammeTypesButton_" Content="Actualiser" Click="___RefreshGammeTypesButton__Click" Grid.Column="0" Margin="10"/>
+                <Button x:Name="___DeleteGammeTypesButton_" Content="Supprimer" Click="___DeleteGammeTypesButton__Click" Grid.Column="1" Margin="10"/>
+            </Grid>
+        </StackPanel>
+        <StackPanel Grid.Column="1">
+            <TextBlock x:Name="___ActionTypeTextBlock_" Margin="10,10,10,5" Text="Veuillez choisir le type d'action souhaité :"/>
+            <ComboBox x:Name="___GammeTypeActionComboBox_" Margin="10,5,10,10" Padding="10" Width="Auto" ItemsSource="{Binding Source={StaticResource dataFromEnum}}"/>
+            <TextBlock x:Name="___LabelTextBlock_" Margin="10,10,10,5" Text="Nom du type de Gamme :"/>
+            <TextBox x:Name="___LabelTextBox_" Margin="10,5,10,5"/>
+            <Button x:Name="___FinalizeButton_" Margin="10,10,10,5" Content="Finaliser l'opération" Click="___FinalizeButton__Click"/>
+        </StackPanel>
+    </Grid>
+</UserControl>

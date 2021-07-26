@@ -7,3 +7,11 @@ E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHe
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\obj\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.csproj.CoreCompileInputs.cache
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\obj\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.dll
 E:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\obj\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.pdb
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\bin\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.deps.json
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\bin\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.dll
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\bin\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.pdb
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\obj\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.AssemblyInfoInputs.cache
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\obj\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.AssemblyInfo.cs
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\obj\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.dll
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\obj\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.pdb
+D:\C#\TicsaManagmentSoftware\TicsaManagmentSoftware\TicsaManagmentSoftware.APIHelper\obj\Debug\netstandard2.0\TicsaManagmentSoftware.APIHelper.csprojAssemblyReference.cache
